@@ -12,7 +12,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-   
   }
   
   .slider {
@@ -93,8 +92,8 @@
   #slide1:checked ~ .slider-footer  .bullet1  .circle,
   #slide2:checked ~ .slider-footer  .bullet2  .circle,
   #slide3:checked ~ .slider-footer  .bullet3  .circle,
-  #slide4:checked ~ .slider-footer  .bullet3  .circle,
-  #slide5:checked ~ .slider-footer  .bullet4  .circle {
+  #slide4:checked ~ .slider-footer  .bullet4  .circle,
+  #slide5:checked ~ .slider-footer  .bullet5  .circle {
     background: black;
     border: none;
   }
@@ -154,5 +153,14 @@
       order: 1;
       width: 100%;
       justify-content: center;
+    }
+    .bullet{
+      height: 6vw;
+      width: 6vw;
+    }
+    .circle {
+      height: 3vw;
+      width: 3vw;
+    
     }
   }
