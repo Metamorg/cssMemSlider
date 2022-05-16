@@ -7,9 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>CSS Mem Slider</title>
+    <title>CSS Cats Slider</title>
 </head>
 <body>
-   
+    <div class="wrapper">
+      <h1 class="title">CSS Cats Slider</h1>
+      <h4 class="title">Лень искать мемы, посмотрите лучше на котов)</h4>
+        <input type="radio" name="point" id="slide1" checked>
+        <input type="radio" name="point" id="slide2">
+        <input type="radio" name="point" id="slide3">
+        <input type="radio" name="point" id="slide4">
+        <input type="radio" name="point" id="slide5">
+
+        <div class="slider">
+          <div class="slides">
+            <div class="slide" id="slide1">
+              <img src="./images/1.jpg" alt="">
+            </div>
+            <div class="slide" id="slide2">
+              <img src="./images/2.jpg" alt="">
+            </div>
+            <div class="slide" id="slide3">
+              <img src="./images/3.jpg" alt="">
+            </div>
+            <div class="slide" id="slide4">
+              <img src="./images/4.jpg" alt="">
+            </div>
+            <div class="slide" id="slide5">
+              <img src="./images/5.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div class="slider-footer">
+          <div class="slider-text">
+            <div class="slider-text__slides">
+              <p class="slide-text">Кот 1</p>
+              <p class="slide-text">Кот 2</p>
+              <p class="slide-text">Кот 3</p>
+              <p class="slide-text">Кот 4</p>
+              <p class="slide-text">Кот 5</p>
+            </div>
+          </div>
+
+          <div class="bullets">
+            <label for="slide1" class="bullet bullet1"><span class="circle"></span></label>
+            <label for="slide2" class="bullet bullet2"><span class="circle"></span></label>
+            <label for="slide3" class="bullet bullet3"><span class="circle"></span></label>
+            <label for="slide4" class="bullet bullet4"><span class="circle"></span></label>
+            <label for="slide5" class="bullet bullet5"><span class="circle"></span></label>
+          </div>
+        </div>
+      
+      </div>
 </body>
 </html>
