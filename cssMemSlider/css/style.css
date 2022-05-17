@@ -49,7 +49,7 @@
   }
   
   .bullet:hover .circle {
-    border: 3px solid black;
+    border: 3px solid blue;
   }
   
   .slider-footer{
@@ -95,7 +95,7 @@
   #slide4:checked ~ .slider-footer  .bullet4  .circle,
   #slide5:checked ~ .slider-footer  .bullet5  .circle {
     background: black;
-    border: none;
+   
   }
   
   #slide1:checked ~ .slider  .slides  .slide,
